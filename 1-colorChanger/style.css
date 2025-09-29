@@ -1,0 +1,45 @@
+html {
+  margin: 0;
+}
+
+span {
+  display: block;
+}
+
+.button {
+  width: 100px;
+  height: 100px;
+  border: solid black 2px;
+  display: flex;              
+  justify-content: center;    
+  align-items: center; 
+  font-weight: bold;          /* makes text stand out */
+  cursor: pointer;            /* makes it feel clickable */
+  margin: 5px;                /* spacing between buttons */
+}
+
+.container1 {
+  display: flex;
+  justify-content: center; /* center horizontally */
+  align-items: center;     /* center vertically */
+  height: 10vh;  
+}
+
+.container2 {
+  display: flex;
+  justify-content: center; /* center horizontally */
+  align-items: center;     /* center vertically */
+  height: 10vh;  
+}
+
+.container3 {
+  display: flex;
+  justify-content: center; /* center horizontally */
+  align-items: center;     /* center vertically */
+  height: 10vh;  
+}
+
+#grey   { background-color: grey;   color: white; }
+#white  { background-color: white;  color: black; }
+#blue   { background-color: blue;   color: white; }
+#yellow { background-color: yellow; color: black; }
